@@ -1,0 +1,9 @@
+<?php
+$to = "somebody@example.com";
+$subject = "Winscreen";
+$txt = "Winscreen";
+$headers = "From: Winscreen@mail.com" . "\r\n" .
+"CC: winscreen@email.com";
+
+mail($to,$subject,$txt,$headers);
+?> 
